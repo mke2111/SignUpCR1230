@@ -29,3 +29,15 @@ header {
     text-align: right;
     margin-right: 50px;
 }
+
+.acc{
+    line-height: 1.5;
+    font-size: 12px;
+    text-align: right;
+    /* margin: 0; */
+}
+
+.acc-link {
+    text-align: right;
+    line-height: 1.5;
+}
