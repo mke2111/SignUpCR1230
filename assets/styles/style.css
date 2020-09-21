@@ -10,7 +10,7 @@ a {
 
 main {
     /* width: 100%; */
-    /* border: 1px solid red; */
+    border: 1px solid transparent;
     display: block;
 }
 
@@ -50,7 +50,7 @@ header {
     padding-top: 5px;
     margin-left: 10px;
     height: 25px;
-    font-size: 12px;
+    font-size: 15px;
     background-color: #0077C5;
     border: 1px solid gray;
     border-radius: 4px;
@@ -76,11 +76,15 @@ section{
     border-radius: 5px;
     background-color: white;
     margin-bottom: 50px;
+    color: #4C4C4C;
 }
 
 .center-top {
     text-align: center;
     margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
 
 .center-top > h5 {
@@ -151,4 +155,5 @@ form{
 footer{
     text-align: center;
     line-height: 1.5;
+    color: #4C4C4C;
 }
