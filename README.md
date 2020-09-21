@@ -2,7 +2,7 @@
 
 > The clone of the Sign-up form for Intuit. The design is as required by microverse's second project.
 
-![screenshot](/assets/image/screenshot.png)
+![screenshot](./screenshot.png)
 
 The design was a basic introduction to the input addition into HTML. Designs are powered by only CSS.
 
