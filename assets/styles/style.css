@@ -41,3 +41,20 @@ header {
     text-align: right;
     line-height: 1.5;
 }
+
+.ol {
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    height: 25px;
+    font-size: 12px;
+    background-color: #0077C5;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+
+}
