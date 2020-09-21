@@ -136,3 +136,18 @@ form{
     font-style: italic;
     margin: 22px 0 22px 0;
 }
+.bottom {
+    background-color: #ECEEF1;
+    width: 380px;
+    height: 50px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    line-height: 1.5;
+}
