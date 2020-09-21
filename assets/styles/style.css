@@ -3,3 +3,13 @@ body{
     padding: 0;
     background-color: #ECEEF1;
 }
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+main {
+    /* width: 100%; */
+    border: 1px solid red;
+    display: block;
+}
