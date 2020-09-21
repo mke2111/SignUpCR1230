@@ -13,3 +13,19 @@ main {
     border: 1px solid red;
     display: block;
 }
+
+header {
+    float: right;
+    margin: 15px 50px 15px 50px;
+}
+
+.account {
+    line-height: 1.6;
+    float: right;
+    margin-top: 15px;
+    font-size: 10px;
+    /* margin-right: 5px; */
+    display: inline-flex;
+    text-align: right;
+    margin-right: 50px;
+}
