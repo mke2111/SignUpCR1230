@@ -14,6 +14,8 @@ The design was a basic introduction to the input addition into HTML. Designs are
 ## Live Demo
 
 [Live Demo Link](https://mke2111.github.io/SignUpCR1230/)
+## Getting started
+- No installtion needed to in order to run the project
 
 ## Authors
 

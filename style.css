@@ -10,7 +10,7 @@ a {
 }
 
 main {
-    /* width: 100%; */
+
     border: 1px solid transparent;
     display: block;
 }
@@ -26,7 +26,7 @@ header {
     float: right;
     margin-top: 5px;
     font-size: 10px;
-    /* margin-right: 5px; */
+ 
     display: inline-flex;
     text-align: right;
     margin-right: 10px;
@@ -36,7 +36,7 @@ header {
     line-height: 1.5;
     font-size: 12px;
     text-align: right;
-    /* margin: 0; */
+  
 }
 
 .acc-link {
@@ -64,16 +64,13 @@ header {
 section {
     margin: 75px 380px 20px 450px;
     display: block;
-    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
 }
 
 .center {
     display: block;
-    /* padding: 20px 20px 0 20px; */
     width: 380px;
-    /* margin: 0 auto; */
     border: 1px solid gray;
     border-radius: 5px;
     background-color: white;
@@ -123,16 +120,10 @@ span {
     color: #4C4C4C;
 }
 
-/* .insides i{
-    position: relative;
-    right: 5px;
-} */
 .input-field {
     width: 97%;
     height: 110%;
     padding-top: 10px;
-    /* padding-bottom: 10px; */
-    /* background-color: ; */
     border-radius: 5px;
     border: 1px solid gray;
     font-size: 14px;
