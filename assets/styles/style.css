@@ -76,3 +76,28 @@ section{
     background-color: white;
     margin-bottom: 50px;
 }
+
+.center-top {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.center-top > h5 {
+    line-height: normal;
+}
+
+form{
+    padding: 20px;
+}
+.insid{
+    margin: 15px 0;
+}
+.insidee{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.insides{
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
