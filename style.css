@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #ECEEF1;
 }
+
 a {
     text-decoration: none;
     color: #0077C5;
@@ -31,7 +32,7 @@ header {
     margin-right: 10px;
 }
 
-.acc{
+.acc {
     line-height: 1.5;
     font-size: 12px;
     text-align: right;
@@ -59,7 +60,8 @@ header {
 
 
 }
-section{
+
+section {
     margin: 75px 380px 20px 450px;
     display: block;
     /* border: 1px solid black; */
@@ -83,43 +85,49 @@ section{
     text-align: center;
     margin-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
+
+
 }
 
-.center-top > h5 {
+.center-top>h5 {
     line-height: normal;
 }
 
-form{
+form {
     padding: 20px;
 }
-.insid{
+
+.insid {
     margin: 15px 0;
 }
-.insidee{
+
+.insidee {
     margin-top: 20px;
     margin-bottom: 5px;
 }
-.insides{
+
+.insides {
     font-size: 10px;
     margin-bottom: 30px;
     margin-top: 0;
 }
-.lock{
+
+.lock {
     position: relative;
 }
-span{
+
+span {
     position: absolute;
     right: 15px;
     top: 15px;
     color: #4C4C4C;
 }
+
 /* .insides i{
     position: relative;
     right: 5px;
 } */
-.input-field{
+.input-field {
     width: 97%;
     height: 110%;
     padding-top: 10px;
@@ -154,6 +162,7 @@ span{
     font-style: italic;
     margin: 22px 0 22px 0;
 }
+
 .bottom {
     background-color: #ECEEF1;
     width: 380px;
@@ -165,7 +174,7 @@ span{
 
 }
 
-footer{
+footer {
     text-align: center;
     line-height: 1.5;
     color: #4C4C4C;
