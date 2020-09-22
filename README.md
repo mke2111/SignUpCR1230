@@ -14,8 +14,28 @@ The design was a basic introduction to the input addition into HTML. Designs are
 ## Live Demo
 
 [Live Demo Link](https://mke2111.github.io/SignUpCR1230/)
-## Getting started
-- No installtion needed to in order to run the project
+
+## Getting Started
+
+To gain access to the Intuit clone page on any computer, follow the steps described below. 
+
+### Prerequisites
+
+- Computer.
+- Internet.
+- Any web-browser (Preferably Chrome or Firefox).
+- Code Editor of your choice.
+
+### Setup
+
+- Clone the repository to your computer, or you download the zip file containing the repository files.
+- File editing can then be applied using the code editor.
+
+### Deployment
+
+- To view the clone page right from the files cloned to your computer, open the index.html file from any browser.
+
+
 
 ## Authors
 

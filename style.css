@@ -9,16 +9,40 @@ a {
     color: #0077C5;
 }
 
-main {
-
+.container {
     border: 1px solid transparent;
     display: block;
 }
 
 header {
     float: right;
-    margin: 10px 10px 15px 50px;
+    margin: 0px 10px 15px 50px;
+    width: 100%;
+}
 
+.main-logo {
+    cursor: pointer;
+}
+
+.other-logo {
+    text-align: center;
+    width: 380px;
+    margin: 0 50px 0 20px;
+    display: inline-flex;
+    
+}
+
+.sid {
+    margin: 0 5px;
+    line-height: 1.5;
+}
+
+#log {
+    color: #4C4C4C;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 0;
+    font-family: sans-serif;
 }
 
 .account {
@@ -26,7 +50,6 @@ header {
     float: right;
     margin-top: 5px;
     font-size: 10px;
- 
     display: inline-flex;
     text-align: right;
     margin-right: 10px;
@@ -36,7 +59,6 @@ header {
     line-height: 1.5;
     font-size: 12px;
     text-align: right;
-  
 }
 
 .acc-link {
@@ -61,12 +83,13 @@ header {
 
 }
 
-section {
-    margin: 75px 380px 20px 450px;
+main {
+    margin: 75px 380px 20px 470px;
     display: block;
     justify-content: center;
     align-items: center;
 }
+
 
 .center {
     display: block;
@@ -80,10 +103,8 @@ section {
 
 .center-top {
     text-align: center;
-    margin-bottom: 5px;
+    margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
 
 .center-top>h5 {
@@ -91,7 +112,7 @@ section {
 }
 
 form {
-    padding: 20px;
+    padding: 3px 20px;
 }
 
 .insid {
@@ -130,10 +151,8 @@ span {
     margin: 10px 0 0 0;
 }
 
-
-
 .done {
-    width: 200px;
+    width: 97%;
     height: 45px;
     background-color: blue;
     color: white;
@@ -141,8 +160,7 @@ span {
     border-radius: 4px;
     font-size: 15px;
     justify-items: center;
-    margin-left: 70px;
-    margin-right: auto;
+    margin-left: 2px;
     margin-bottom: 10px;
     margin-top: 30px;
 }
@@ -162,11 +180,11 @@ span {
     padding-top: 5px;
     margin: 0;
     text-align: center;
-
 }
 
 footer {
     text-align: center;
     line-height: 1.5;
     color: #4C4C4C;
+    padding-left: 10px;
 }

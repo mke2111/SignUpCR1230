@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <main>
+    <div class="container">
         <header>
             <div class="account">
                 <div class="acc">Already have an Inuit account? <br> <a class="acc-link" href="#">I forgot my User ID or
@@ -19,47 +19,57 @@
                 <div class="ol"><i class="fas fa-lock"></i> Sign In</div>
             </div>
         </header>
-        <section>
-            <div class="logo"><img src="image/logo.png" alt="logo"></div>
-            <div class="center">
-                <div class="center-top">
-                    <h3>Create an Intuit account</h3>
-                    <h5>One account for everything Intuit, including Mint.<br><a href="#">Learn more</a></h5>
-
-                </div>
-                <form action="POST">
-                    <div class="insid"><label for="email">Email address</label>
-                        <input class="input-field" type="text" id="email"></div>
-                    <div class="insidee">
-                        <label for="phone">Phone (recommended)</label>
-                        <input class="input-field" type="number" id="phone">
-
-                    </div>
-                    <div class="insides">
-                        Standard call, messaging or data rates may apply.
-                    </div>
-                    <div class="inside">
-                        <label for="password">Password</label>
-                        <div class="lock">
-                            <input class="input-field ccc" type="password" id="password" placeholder=""> <span><i
-                                    class="fas fa-lock-open"></i></span>
-                        </div>
-                    </div>
-                    <button class="done" type="submit"><i class="fas fa-lock"></i> Create Account</button>
-                </form>
-                <div class="below">
-                    <p>By clicking Create account, you agree to our <br><a href="#">Terms</a> and have read and
-                        acknowledge
-                        our <a href="#">Privacy <br>Statement</a>.</p>
-                </div>
-                <div class="bottom">
-                    <h6>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
-                    </h6>
-                </div>
-
+        <main>
+            <div class="main-logo"><img src="image/logo9.png" alt="logo"></div>
+            <div class="other-logo">
+                <div class="sid"><a href="https://www.mint.com/"><img  src="image/min.png" alt="Mint Logo"></a></div>
+                <div class="sid" id="log">mint</div>
+                <div class="sid"><a href="https://quickbooks.intuit.com/"><img src="image/qb.png" alt="quickbooks Logo"></a></div>
+                <div class="sid" id="log">quickbooks</div>
+                <div class="sid"><a href="https://turbotax.intuit.com/"><img src="image/turb.png" alt="TurboTax Logo"></a></div>
+                <div class="sid" id="log">turbotax</div>
             </div>
+            <section>
+                <div class="center">
+                    <div class="center-top">
+                        <h3>Create an Intuit account</h3>
+                        <h5>One account for everything Intuit, including Mint.<br><a href="#">Learn more</a></h5>
+    
+                    </div>
+                    <form action="POST">
+                        <div class="insid"><label for="email">Email address</label>
+                            <input class="input-field" type="email" id="email"></div>
+                        <div class="insidee">
+                            <label for="phone">Phone (recommended)</label>
+                            <input class="input-field" type="tel" id="phone">
+    
+                        </div>
+                        <div class="insides">
+                            Standard call, messaging or data rates may apply.
+                        </div>
+                        <div class="inside">
+                            <label for="password">Password</label>
+                            <div class="lock">
+                                <input class="input-field ccc" type="password" id="password" placeholder=""> <span><i
+                                        class="fas fa-lock-open"></i></span>
+                            </div>
+                        </div>
+                        <button class="done" type="submit"><i class="fas fa-lock"></i> Create Account</button>
+                    </form>
+                    <div class="below">
+                        <p>By clicking Create account, you agree to our <br><a href="#">Terms</a> and have read and
+                            acknowledge
+                            our <a href="#">Privacy <br>Statement</a>.</p>
+                    </div>
+                    <div class="bottom">
+                        <h6>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+                        </h6>
+                    </div>
+    
+                </div>
+            </section>
 
-        </section>
+        </main>
         <footer>
             <div>
                 <h5>Legal Privacy Security <br> &#169; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
@@ -69,7 +79,7 @@
                     notice.</h5>
             </div>
         </footer>
-    </main>
+    </container>
 </body>
 
 </html>
