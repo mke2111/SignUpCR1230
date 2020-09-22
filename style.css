@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECEEF1;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.container {
+    border: 1px solid transparent;
+    display: block;
+}
+
+header {
+    float: right;
+    margin: 0px 10px 15px 50px;
+    width: 100%;
+}
+
+.main-logo {
+    cursor: pointer;
+}
+
+.other-logo {
+    text-align: center;
+    width: 380px;
+    margin: 0 50px 0 20px;
+    display: inline-flex;
+    
+}
+
+.sid {
+    margin: 0 5px;
+    line-height: 1.5;
+}
+
+#log {
+    color: #4C4C4C;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 0;
+    font-family: sans-serif;
+}
+
+.account {
+    line-height: 1.6;
+    float: right;
+    margin-top: 5px;
+    font-size: 10px;
+    display: inline-flex;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.acc {
+    line-height: 1.5;
+    font-size: 12px;
+    text-align: right;
+}
+
+.acc-link {
+    text-align: right;
+    line-height: 1.5;
+}
+
+.ol {
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #0077C5;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+main {
+    margin: 75px 380px 20px 470px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center {
+    display: block;
+    width: 380px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 50px;
+    color: #4C4C4C;
+}
+
+.center-top {
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-top>h5 {
+    line-height: normal;
+}
+
+form {
+    padding: 3px 20px;
+}
+
+.insid {
+    margin: 15px 0;
+}
+
+.insidee {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.insides {
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.lock {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #4C4C4C;
+}
+
+.input-field {
+    width: 97%;
+    height: 110%;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.done {
+    width: 97%;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    justify-items: center;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.below {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    margin: 22px 0 22px 0;
+}
+
+.bottom {
+    background-color: #ECEEF1;
+    width: 380px;
+    height: 50px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    line-height: 1.5;
+    color: #4C4C4C;
+    padding-left: 10px;
+}
